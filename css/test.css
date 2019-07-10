@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 60vh;
+    background-image: url('../images/hero-image3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    padding: 30px 50px;
+    color: #fff;
+    justify-content: center;
+}
+
+.navbar-item {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.header-title h1 {
+    font-size: 120px;
+}
+
+.header-title h2 {
+    background-color: rgba(255,0,0,0.79);
+    padding: 10px 15px;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.trips {
+    width: 100%;
+    padding: 80px 30px 50px;
+}
+
+
+.trips img {
+    width: 100%;
+}
+
+.content-title {
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.content-description {
+    color: #808080;
+    margin-bottom: 30px;
+}
+
+.side-bar-container {
+    width: 100%;
+}
+
+.side-bar {
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+
+.side-bar-title {
+    border-bottom: 1px solid #cccccc;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.side-bar-tour {
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.tour-price {
+    padding: 5px 10px;
+    background-color: red;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+
+.tour-1 {
+    background-image: url(../images/beach-1.jpg);
+}
+
+.tour-2 {
+    background-image: url(../images/beach-2.jpg); 
+}
+
+footer {
+    background-color: #333333;
+    color: #cccccc;
+    padding: 25px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .trips {
+        width: 70%;
+    }
+
+    .side-bar-container {
+        width: 30%;
+        padding-right: 30px;
+    }
+
+    .side-bar {
+        margin-top: 80px;
+    }
+}
